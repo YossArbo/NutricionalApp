@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.image.*?>
@@ -8,15 +9,6 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nutricionalappfx.controlador.FXMLAutenticacionController">
    <children>
-      <VBox fx:id="vBoxImagen" layoutX="9.0" layoutY="6.0" prefHeight="256.0" prefWidth="251.0">
-         <children>
-            <ImageView fx:id="imagenFondo" fitHeight="266.0" fitWidth="251.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../recurso/logo.jpg" />
-               </image>
-            </ImageView>
-         </children>
-      </VBox>
       
       <TextField fx:id="tfUsuario" layoutX="282.0" layoutY="125.0" prefHeight="31.0" prefWidth="275.0" promptText="Ingrese su No. Personal" />
       <PasswordField fx:id="tfContrasenia" layoutX="281.0" layoutY="201.0" prefHeight="31.0" prefWidth="275.0" promptText="Ingrese su contraseña" />
@@ -38,5 +30,11 @@
             <Font size="36.0" />
          </font>
       </Label>
+      <ImageView fitHeight="338.0" fitWidth="254.0" layoutX="14.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="291.0" fitWidth="275.0" layoutX="4.0" layoutY="71.0">
+         <image>
+            <Image url="@../recurso/logo.jpg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
